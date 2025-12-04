@@ -64,7 +64,7 @@ class OrderResponse():
     CODE_ERROR_NOT_AUTH = 401
     BODY_ERROR_NOT_AUTH = "You shold be authorised"
 
-    R_CODE_ERROR_INCORRECT = 500
+    CODE_ERROR_INCORRECT = 500
 
-    R_CODE_ERROR_EMPTY = 400
-    R_BODY_ERROR_EMPTY = "Ingredient ids must be provided"
+    CODE_ERROR_EMPTY = 400
+    BODY_ERROR_EMPTY = "Ingredient ids must be provided"

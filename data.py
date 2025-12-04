@@ -37,15 +37,6 @@ class OrderData():
     
     PAYLOAD_EMPTY = {"ingredients": []}
 
-    R_CODE_ERROR_INCORRECT = 500
-    R_BODY_ERROR_INCORRECT = "Ingredient ids must be provided"
-
-    R_CODE_ERROR_EMPTY = 400
-    R_BODY_ERROR_EMPTY = "Ingredient ids must be provided"
-
-    TEST_ORDER_ERROR = [[PAYLOAD_INCORRECT, R_CODE_ERROR_INCORRECT, R_BODY_ERROR_INCORRECT],
-                        [PAYLOAD_EMPTY, R_CODE_ERROR_EMPTY, R_BODY_ERROR_EMPTY]]
-
 class UserCreateResponse():
 
     CODE_SUCCESS = 200
@@ -72,3 +63,8 @@ class OrderResponse():
 
     CODE_ERROR_NOT_AUTH = 401
     BODY_ERROR_NOT_AUTH = "You shold be authorised"
+
+    R_CODE_ERROR_INCORRECT = 500
+
+    R_CODE_ERROR_EMPTY = 400
+    R_BODY_ERROR_EMPTY = "Ingredient ids must be provided"
